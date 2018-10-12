@@ -131,7 +131,7 @@ geth-darwin-386:
 	@ls -ld $(GOBIN)/geth-darwin-* | grep 386
 
 geth-darwin-amd64:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=darwin/amd64 -v ./cmd/perkle
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=darwin/amd64 -v ./cmd/geth
 	@echo "Darwin amd64 cross compilation done:"
 	@ls -ld $(GOBIN)/geth-darwin-* | grep amd64
 

@@ -55,7 +55,7 @@ func DefaultDataDir() string {
 	// Try to place the data folder in the user's home dir
 	home := homeDir()
 	if home != "" {
-		return filepath.Join(home, ".esprezzo")
+		return filepath.Join(home, ".perkle")
 	}
 	// As we cannot guess a stable location, return empty and handle later
 	return ""
