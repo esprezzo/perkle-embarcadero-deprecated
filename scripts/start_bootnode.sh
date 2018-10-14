@@ -1,2 +1,2 @@
 #!/bin/bash
-./esprezzo-chain/build/bin/bootnode -nodekey boot.key -verbosity 4
+./perkle/build/bin/bootnode -nodekey boot.key -verbosity 4

@@ -1,2 +1,2 @@
 #!/bin/bash
-~/perkle-core/build/bin/geth attach ~/.esprezzo/geth.ipc
+~/perkle/build/bin/geth attach ~/.perkle/geth.ipc

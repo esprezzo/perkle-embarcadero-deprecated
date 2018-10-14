@@ -1,6 +1,6 @@
 #!/bin/bash
-~/esprezzo-chain/build/bin/geth \
-    --datadir ~/.esprezzo \
+~/perkle/build/bin/geth \
+    --datadir ~/.perkle \
     --syncmode 'full' \
     --port 30311 \
     --rpc \
