@@ -9,7 +9,7 @@
     --rpcapi 'db,eth,net,web3,txpool,miner,personal' \
     # --gasprice '1' \
     --etherbase '0x8C12E659ACE965C4A17F3664135E6BB0292789E0' \
-    --nodekey ~/.perkle/boot.key \
+    --nodekey ~/boot.key \
     --verbosity 3 \
     --mine \
     --minerthreads 6 \
