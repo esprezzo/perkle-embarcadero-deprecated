@@ -8,12 +8,11 @@ echo 'PATH="$PATH:/usr/lib/go-1.10/bin"' >> ~/.profile;
 source ~/.profile
 
 cd ~/_build_tmp && \
-git clone https://github.com/alanwilhelm/go-ethereum.git \
-&& mv go-ethereum esprezzo-chain && \
-cd ./esprezzo-chain && \
-git checkout ezp && make clean && \
+git clone https://github.com/alanwilhelm/perkle.git 
+cd ./perkle && \
+git checkout release && make clean && \
 make all;
 
-rm -rf ~/esprezzo-chain;
-mv ~/_build_tmp/esprezzo-chain/ ~/;
+rm -rf ~/perkle;
+mv ~/_build_tmp/perkle/ ~/;
 rm -rf ~/_build_tmp;

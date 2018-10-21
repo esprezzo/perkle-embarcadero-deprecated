@@ -1,2 +1,2 @@
 #!/bin/bash
-./esprezzo-chain/build/bin/bootnode -genkey ~/.esprezzo/boot.key
+./perkle/build/bin/bootnode -genkey ~/.perkle/boot.key

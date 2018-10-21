@@ -1,7 +1,8 @@
 #!/bin/bash
-ps aux | grep '[./esprezzo]-chain/build/bin/geth' > /dev/null
-if [ $? -eq 0 ]; then
-  echo "Process is running."
+SERVICE="./perkle/build/bin/geth"
+
+if pgrep -f "$SERVICE" >/dev/null 2>&1 ; then
+  echo "$SERVICE is running"
 else
-  echo "Process is not running."
+  echo "$SERVICE is NOT running"
 fi

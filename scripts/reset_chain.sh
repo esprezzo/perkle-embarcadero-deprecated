@@ -1,4 +1,4 @@
 #!/bin/bash
-rm -rf ~/.esprezzo/geth/chaindata;
-rm -rf ~/.esprezzo/geth/lightchaindata;
-rm -rf ~/.esprezzo/geth;
+rm -rf ~/.perkle/geth/chaindata;
+rm -rf ~/.perkle/geth/lightchaindata;
+rm -rf ~/.perkle/geth;
