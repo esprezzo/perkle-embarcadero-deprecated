@@ -6,8 +6,8 @@
     --rpc \
     --rpcaddr '0.0.0.0' \
     --rpcport 8501 \
-    --rpcapi 'db,eth,net,web3,txpool,miner,personal' \
-    --etherbase '0x8C12E659ACE965C4A17F3664135E6BB0292789E0' \
+    --rpcapi 'db,eth,net,web3,txpool,miner' \
+    --etherbase '0x0f31986d7a0d4f160acd97583e3c3b591dcb5dde' \
     --nodekey ~/boot.key \
     --verbosity 3 \
     --mine \
