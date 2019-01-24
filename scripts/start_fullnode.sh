@@ -10,5 +10,5 @@
     --nodekey ~/boot.key \
     --verbosity 3 \
     --mine \
-    --minerthreads 6 \
+    --minerthreads 0 \
    
