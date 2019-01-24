@@ -2,7 +2,6 @@
 ~/perkle/build/bin/geth \
     --datadir ~/.perkle \
     --syncmode 'full' \
-    --port 30311 \
     --rpc \
     --rpcaddr '0.0.0.0' \
     --rpcport 8501 \
