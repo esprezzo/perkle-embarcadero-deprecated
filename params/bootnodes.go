@@ -21,9 +21,9 @@ package params
 
 var MainnetBootnodes = []string{
 	// Esprezzo Foundation Go Bootnodes
-	"enode://0d75e3d5e6017c26fc53934fbaa8305d731bf0574b35022dd4a7b2bea1e7a34f2131439adc3db31cf1a37c8a9be900fbd8e0a4c0a019ff7eaa650963e64c35f1@40.121.105.44:30310", // BOOTNODE PORT Node 1
-	"enode://d8f8a7cfe05231426431f489430e880d6fb7f425d49dc1a95abef589c3c6b541d280dcdf1c6ad12b0d343771b909dd021a85d7d47e751269854d57f5cf1be4d1@35.168.54.62:30311",  // Node 2
-	// "enode://d5e4956e254c067893394a9b89924275c3696c2e254b8cc74e0694718f4b657bf64427e98776c1675fb40188ebe2426170ba758dd367f87e5a46fc8cdbc2d783@104.42.157.173:30310", // Node 3
+	"enode://enode://9a07e80df806bfacd89b4245f8272ced37ff4985e7db98d7c1a4883cf8c49c89e970d3b28bd2f986e97cace01af9a78e117478d4927b2d65c306a4622a2ff4b0@3.90.100.66:30310", // BOOTNODE/Blocknet2
+	"enode://9a07e80df806bfacd89b4245f8272ced37ff4985e7db98d7c1a4883cf8c49c89e970d3b28bd2f986e97cace01af9a78e117478d4927b2d65c306a4622a2ff4b0@3.90.100.66:30311",         // Blocknet 1
+	"enode://0757ba56ff97496c32dfc586193f917411c0364b5a4892db79e52e1a36b410430d87767d40afbe6e5c94c4a72d1b59db90fa4262bd52f0ea8d0a4e117cc11390@34.232.227.76:30311",       // Blocknet 3
 }
 
 // TestnetBootnodes are the enode URLs of the P2P bootstrap nodes running on the
@@ -37,3 +37,4 @@ var RinkebyBootnodes = []string{}
 // DiscoveryV5Bootnodes are the enode URLs of the P2P bootstrap nodes for the
 // experimental RLPx v5 topic-discovery network.
 var DiscoveryV5Bootnodes = []string{}
+

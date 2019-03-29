@@ -6,9 +6,12 @@
     --rpcaddr '0.0.0.0' \
     --rpcport 8501 \
     --rpcapi 'db,eth,net,web3,txpool,miner' \
-    --etherbase '0x0f31986d7a0d4f160acd97583e3c3b591dcb5dde' \
-    --verbosity 3 \
-    --mine \
-    --minerthreads 0 \
+    --verbosity 4 \
+    --rpccorsdomain="*" \
+    --rpcvhosts=* 
+    #--mine \
+    #--minerthreads 0 \
+    # --etherbase '0x0f31986d7a0d4f160acd97583e3c3b591dcb5dde' \
+    # --unlock 1 console
     # --nodekey ~/boot.key \
 
