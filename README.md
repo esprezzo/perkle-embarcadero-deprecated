@@ -4,7 +4,16 @@ Most of the internal and command line APIs still refer to Ethereum and Eth/Web3(
 
 This package is the standard Go source code for the CLI toolkit. Once compiled you can create wallets, mine PRKL, deploy smart contracts to the Perkle blockchain etc.
 
-If you are looking for pre-compiled binaries plase check the RELEASES page.
+If you are looking for pre-compiled binaries please check the RELEASES page.
+
+To compile and run from source on Ubuntu you can use the following script:
+```bash
+#!/bin/bash
+sudo apt-get install -y build-essential golang;
+git clone https://github.com/esprezzo/perkle.git
+./perkle/scripts/build_release.sh;
+./perkle/scripts/start_fullnode.sh;
+```
 
 Start the blockchain node and allow it to sync.
 
