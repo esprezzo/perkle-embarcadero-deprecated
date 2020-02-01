@@ -1,4 +1,4 @@
-## Perkle is a fork of Go Ethereum
+## [DEPRECATED] Perkle is a fork of Go Ethereum
 
 Most of the internal and command line APIs still refer to Ethereum and Eth/Web3(eg: `eth.getBalance()`). This is because Perkle is intended to be an Ethereum clone focused on making life easy for developers and as such we want code and libraries developed on Perkle to allow for a seamless transition to Ethereum Mainnet or any Ethereum compatible network.
 
